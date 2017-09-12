@@ -73,41 +73,29 @@ class: en-default
     <div class="row">
       <div class="industrias">
         <ul>
-          <li>Hotels</li>
-          <li>Residential Homes</li>
-          <li>Care Homes</li>
-          <li>Canteens</li>
-          <li>Caterings</li>
-          <li>Day Nurseries</li>
-          <li>School Centers</li>
-          <li>Hospitals</li>
-          <li>Universities</li>
-          <li>Launderettes</li>
-          <li>Hypermarkets</li>
-          <li>Supermarkets</li>
-          <li>Foodwarehouses</li>
-          <li>Municipal Markets</li>
-          <li>Take Aways</li>
-          <li>Pastrie Shops And Bakery Shops</li>
-          <li>Cafes And Restaurants</li>
-          <li>Pizzerias</li>
-          <li>Delicatessens</li>
+          {% for index in site.data.front.en.index %}
+            <li>{{index}}</li>
+          {% endfor %}
         </ul>
       </div>
 
       <div class="noticias">
         <img src="../images/dynamic/W1siZnUiLCJodHRwczovL2FkYWdhd2ViLnMzLmFtYXpvbmF/MTQ1MzQ4NjkzNyJdLFsicCIsInRodW1iIiwiNjQweCJdXQ/noticias_header61ef.jpg?sha=0d544a708cebc54a" class="img-responsive"></img>
-        <p>
-          <p>Hotelis is a Portuguese company dedicated to the supply of equipment for hotels, refrigeration and air conditioning.&nbsp;According to the needs of each client, can take reponsibility...
-        </p>
+        <div class="content editable">
+          <p>
+            <p>Hotelis is a Portuguese company dedicated to the supply of equipment for hotels, refrigeration and air conditioning.&nbsp;According to the needs of each client, can take reponsibility...
+          </p>
+        </div>
         <a href="noticias.html" class="link-to-news">READ +</a>
       </div>
     </div>
   </div>
 
   <div class="bottom-banner">
-    <span>
-      Tailor-made solutions for your business success
-    </span>
+    <div class="content editable">
+      <span>
+        Tailor-made solutions for your business success
+      </span>
+    </div>
   </div>
 </body>

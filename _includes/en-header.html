@@ -22,7 +22,7 @@
                     <a href="#.html" class="en">en</a>
 
                 {% elsif page.title == "servicos-en" %}
-                    <a href="../servico.html" class="pt">pt</a>
+                    <a href="../servicos.html" class="pt">pt</a>
                     <a href="#.html" class="en">en</a>
 
                 {% elsif page.title == "marcas-en" %}
@@ -35,6 +35,9 @@
 
                 {% elsif page.title == "noticias-en" %}
                     <a href="../noticias.html" class="pt">pt</a>
+                    <a href="#.html" class="en">en</a>
+                {% elsif page.class == "produto" %}
+                    <a href="../../produtos/cozinha-industrial.html" class="pt">pt</a>
                     <a href="#.html" class="en">en</a>
                 {% endif %}
             </p>
@@ -60,7 +63,7 @@
                         <li id="servicos-link" class="link "><a href="servicos.html">Services</a></li>                    
                     {% endif %}
 
-                    {% if page.title == "produtos-en" %}
+                    {% if page.class == "produto" %}
                         <li id="produtos-link" class="link active"><a href="produtos/cozinha-industrial.html">Products</a></li>
                     {% else %}
                         <li id="produtos-link" class="link "><a href="produtos/cozinha-industrial.html">Products</a></li>                    

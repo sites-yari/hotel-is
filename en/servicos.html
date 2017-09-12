@@ -6,87 +6,55 @@ class: en-default
 
 <body class="servicos">
   <div class="container body">
-    <div class="row">
-      <div class="descricao-servicos">
-        
-        <div>
-          <span>
-            Design and Planning
-          </span>
-          <p>
-            Correct execution of installation, in order to comply with the agreed specifications
-  .
-          </p>
+    {% for servicos in site.data.servicos.en.sobre %} 
+      <div class="row">
+        <div class="descricao-servicos"> 
+          <div>
+              <span>{{servicos.projeto}}</span>
+              <p>{{servicos.acerca}}</p>
+          </div>
         </div>
-        
-        <div>
-          <span>
-            Final tests
-          </span>
-          <p>
-            Provided by specialized technicians.
-          </p>
-        </div>
-        
-        <div>
-          <span>
-            Training of Designated Staff
-          </span>
-          <p>
-            On delivery of installation and respective technical process.
-          </p>
-        </div>
-        
-        <div>
-          <span>
-            Technical Assistance
-          </span>
-          <p>
-            Contracts for Preventive  and/or Rectifying assistance available, to increase the   lifetime of the installation during and after the warranty period.
-          </p>
-        </div>
-        
-      </div>
 
-      <div class="image" id="xxx">
-        <!-- <img src="https://adagaweb.s3.amazonaws.com/sites/54c0ed3f3818bb9213000002/theme/images/hotelis_projeto.jpg?43f5221813e36a87ef77d8dec5a2309b" class="img-responsive" > -->
-        <style>
-              body { background-image: url("../assets/img/hotelis_projeto.jpg"); }
-        </style>
-        <script>
-          document.addEventListener("DOMContentLoaded", function (ev) {
-          var elem = document.createElement("div");
-          elem.setAttribute("id", "yyy");
-          var img =  document.createElement("img");
-          // <!-- img.addEventListener("load", function () { -->
-          // <!-- elem.style.display="block"; -->
-          // <!-- }); -->
-          img.setAttribute("src", "../assets/img/hotelis_projeto.jpg");
-          img.style.height = "100%";
-          elem.appendChild(img);
-          // elem.style.display = "none";
-          elem.style.position = "absolute";
-          elem.style.right = "0";
-          elem.style.bottom = "30px";
-          elem.style.overflow = "hidden";
-          document.body.insertBefore(elem, document.body.firstChild);
-          relocate();
-          window.addEventListener("resize", function (ev) { relocate(); });
-          function relocate () {
-          var pos = getPos(document.getElementById("xxx"));
-          elem.style.left = (pos.x + 15) + "px";
-          elem.style.top = (pos.y - 30) + "px";
-          }
-          function getPos(el) {
-          for (var lx=0, ly=0;
-          el != null;
-          lx += el.offsetLeft, ly += el.offsetTop, el = el.offsetParent);
-          return {x: lx,y: ly};
-          }
-          });
-        </script>
+        <div class="image" id="xxx">
+          <!-- <img src="https://adagaweb.s3.amazonaws.com/sites/54c0ed3f3818bb9213000002/theme/images/hotelis_projeto.jpg?43f5221813e36a87ef77d8dec5a2309b" class="img-responsive" > -->
+          <style>
+                body { background-image: url("../assets/img/hotelis_projeto.jpg"); }
+          </style>
+          <script>
+            document.addEventListener("DOMContentLoaded", function (ev) {
+            var elem = document.createElement("div");
+            elem.setAttribute("id", "yyy");
+            var img =  document.createElement("img");
+            // <!-- img.addEventListener("load", function () { -->
+            // <!-- elem.style.display="block"; -->
+            // <!-- }); -->
+            img.setAttribute("src", "../assets/img/hotelis_projeto.jpg");
+            img.style.height = "100%";
+            elem.appendChild(img);
+            // elem.style.display = "none";
+            elem.style.position = "absolute";
+            elem.style.right = "0";
+            elem.style.bottom = "30px";
+            elem.style.overflow = "hidden";
+            document.body.insertBefore(elem, document.body.firstChild);
+            relocate();
+            window.addEventListener("resize", function (ev) { relocate(); });
+            function relocate () {
+            var pos = getPos(document.getElementById("xxx"));
+            elem.style.left = (pos.x + 15) + "px";
+            elem.style.top = (pos.y - 30) + "px";
+            }
+            function getPos(el) {
+            for (var lx=0, ly=0;
+            el != null;
+            lx += el.offsetLeft, ly += el.offsetTop, el = el.offsetParent);
+            return {x: lx,y: ly};
+            }
+            });
+          </script>
+        </div>
       </div>
-    </div>
+    {% endfor %}
   </div>
 
 </body>
