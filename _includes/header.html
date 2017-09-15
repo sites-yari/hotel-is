@@ -44,41 +44,16 @@
       <div class="col-xs-12">
           <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-              {% if page.title =="empresa-pt" %}
-                <li id="empresa-link" class="link active first"><a href="../empresa.html">Empresa</a></li>
-              {% else %}
-                <li id="empresa-link" class="link first"><a href="../empresa.html">Empresa</a></li>              
-              {% endif %}
-
-              {% if page.title =="servico-pt" %}
-                <li id="servicos-link" class="link active"><a href="../servicos.html">Serviços</a></li>              
-              {% else %}              
-                <li id="servicos-link" class="link "><a href="../servicos.html">Serviços</a></li>
-              {% endif %}
-
+              <li id="empresa-link" class="link {{page.empresa_active?}} first"><a href="../empresa.html">Empresa</a></li>                         
+              <li id="servicos-link" class="link {{page.servicos_active?}}"><a href="../servicos.html">Serviços</a></li>
               {% if page.class =="produto" %}
                 <li id="produtos-link" class="link active"><a href="../produtos/cozinha-industrial.html">Produtos</a></li>              
               {% else %}
                 <li id="produtos-link" class="link "><a href="../produtos/cozinha-industrial.html">Produtos</a></li>
               {% endif %}
-
-              {% if page.title =="marcas-pt" %}
-              <li id="marcas-link" class="link active"><a href="../marcas.html">Marcas</a></li>              
-              {% else %}
-                <li id="marcas-link" class="link "><a href="../marcas.html">Marcas</a></li>
-              {% endif %}
-
-              {% if page.title =="contactos-pt" %}              
-                <li id="contactos-link" class="link active"><a href="../contactos.html">Contactos</a></li>
-              {% else %}
-                <li id="contactos-link" class="link "><a href="../contactos.html">Contactos</a></li>              
-              {% endif %}
-
-              {% if page.title =="noticias-pt" %}
-              <li id="noticias-link" class="link active last"><a href="../noticias.html">Notícias</a></li>              
-              {% else %}           
-                <li id="noticias-link" class="link last"><a href="../noticias.html">Notícias</a></li>
-              {% endif %}
+              <li id="marcas-link" class="link {{page.marcas_active?}}"><a href="../marcas.html">Marcas</a></li>
+              <li id="contactos-link" class="link {{page.contactos_active?}}"><a href="../contactos.html">Contactos</a></li>              
+              <li id="noticias-link" class="link {{page.noticias_active?}} last"><a href="../noticias.html">Notícias</a></li>
             </ul>
           </div>
       </div>
@@ -106,47 +81,16 @@
 
           <div class="collapse navbar-collapse" id="main-nav">
             <ul class="nav navbar-nav">
-              {% if page.title =="empresa-pt" %}
-                <li id="empresa-link" class="link active first"><a href="../empresa.html">Empresa</a></li>
-              {% else %}
-                <li id="empresa-link" class="link first"><a href="../empresa.html">Empresa</a></li>              
-              {% endif %}
-
-              {% if page.title =="servico-pt" %}
-                <li id="servicos-link" class="link active"><a href="../servicos.html">Serviços</a></li>              
-              {% else %}              
-                <li id="servicos-link" class="link "><a href="../servicos.html">Serviços</a></li>
-              {% endif %}
-
+              <li id="empresa-link" class="link {{page.empresa_active?}} first"><a href="../empresa.html">Empresa</a></li>                         
+              <li id="servicos-link" class="link {{page.servicos_active?}}"><a href="../servicos.html">Serviços</a></li>
               {% if page.class =="produto" %}
                 <li id="produtos-link" class="link active"><a href="../produtos/cozinha-industrial.html">Produtos</a></li>              
               {% else %}
                 <li id="produtos-link" class="link "><a href="../produtos/cozinha-industrial.html">Produtos</a></li>
               {% endif %}
-
-              {% if page.title =="marcas-pt" %}
-              <li id="marcas-link" class="link active"><a href="../marcas.html">Marcas</a></li>              
-              {% else %}
-                <li id="marcas-link" class="link "><a href="../marcas.html">Marcas</a></li>
-              {% endif %}
-
-              {% if page.title =="contactos-pt" %}              
-                <li id="contactos-link" class="link active"><a href="../contactos.html">Contactos</a></li>
-              {% else %}
-                <li id="contactos-link" class="link "><a href="../contactos.html">Contactos</a></li>              
-              {% endif %}
-
-              {% if page.title =="noticias-pt" %}
-              <li id="noticias-link" class="link active last"><a href="../noticias.html">Notícias</a></li>              
-              {% else %}           
-                <li id="noticias-link" class="link last"><a href="../noticias.html">Notícias</a></li>
-              {% endif %}
-              <!--<li id="empresa-link" class="link first"><a href="empresa.html">Empresa</a></li>
-              <li id="servicos-link" class="link "><a href="servicos.html">Serviços</a></li>
-              <li id="produtos-link" class="link "><a href="produtos/cozinha-industrial.html">Produtos</a></li>
-              <li id="marcas-link" class="link "><a href="marcas.html">Marcas</a></li>
-              <li id="contactos-link" class="link "><a href="contactos.html">Contactos</a></li>
-              <li id="noticias-link" class="link last"><a href="noticias.html">Notícias</a></li>-->
+              <li id="marcas-link" class="link {{page.marcas_active?}}"><a href="../marcas.html">Marcas</a></li>
+              <li id="contactos-link" class="link {{page.contactos_active?}}"><a href="../contactos.html">Contactos</a></li>              
+              <li id="noticias-link" class="link {{page.noticias_active?}} last"><a href="../noticias.html">Notícias</a></li>
             </ul>
           </div>
       </div>

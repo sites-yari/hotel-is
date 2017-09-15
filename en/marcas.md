@@ -2,6 +2,8 @@
 layout: en-default
 title: marcas-en
 class: en-default
+description: Brands - Hotelis |
+marcas_en_active?: active
 ---
 
 <body class="marcas">

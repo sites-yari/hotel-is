@@ -2,6 +2,8 @@
 layout: default
 title: marcas-pt
 class: default
+marcas_active?: active
+description: Marcas - Hotelis | Equipamentos para hotelaria, refrigeração e ar condicionado
 ---
 
 <body class="marcas">   
