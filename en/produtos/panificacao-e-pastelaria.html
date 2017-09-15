@@ -1,0 +1,88 @@
+---
+layout: en-default-produto
+title: produto-panificacao-en
+class: produto
+description: Bakery  And Pastries - Hotelis |
+---
+
+
+<body class="produtos">
+  <div class="container body">
+    <div class="row">
+      <div class="descricao-produtos">
+        <a href="cozinha-industrial.html" >Industrial Kitchen</a>
+        <a href="lavandaria-industrial.html" >Industrial Laundry</a>
+        <a href="gastro-buffet-slash-self-service.html" >Gastro Buffet / Self Service</a>
+        <a href="sector-alimentar.html" >Food Sector</a>
+        <a href="panificacao-e-pastelaria.html" class="current">Bakery  And Pastries</a>
+        <a href="frio-comercial-slash-industrial.html" >Commercial / Industrial Cold</a>
+        <a href="ar-condicionado-slash-avac.html" >Air Conditioning / Avac</a>
+      </div>
+
+      <div class="lista-produtos">
+        <ul>
+            {% for panificacao-e-pastelaria in site.data.produtos.en.panificacao %}
+            <li>{{panificacao-e-pastelaria}}</li>
+                {% endfor %}
+        </ul>
+      </div>
+
+      <div class="image" id="xxx">
+        <!-- <div id="products-carousel" class="carousel slide" data-ride="carousel"> -->
+        <!--   <ol class="carousel-indicators"> -->
+        <!--      -->
+        <!--     <li data-target="#products-carousel" data-slide-to="0" class="active"></li> -->
+        <!--      -->
+        <!--   </ol> -->
+        <!--   <div class="carousel-inner" role="listbox"> -->
+        <!--      -->
+        <!--     <div class="item active"> -->
+        <!--       <img src="https://adagaweb.s3.amazonaws.com/sites/54c0ed3f3818bb9213000002/content_entry54c2e652e267e958c9000018/54c2efc5e267e958c900009c/files/daisy_pizza-counterl.jpg?1422061634" class="img-responsive" > -->
+        <!--       <div class="container"> -->
+        <!--         <div class="carousel-caption"> -->
+        <!--         </div> -->
+        <!--       </div> -->
+        <!--     </div> -->
+        <!--      -->
+        <!--   </div> -->
+        <!-- </div> -->
+        <style>
+                  body { background-image: url("../../assets/img/daisy_pizza-counterl.jpg"); }
+        </style>
+        <script>
+          document.addEventListener("DOMContentLoaded", function (ev) {
+          var elem = document.createElement("div");
+          elem.setAttribute("id", "yyy");
+          var img =  document.createElement("img");
+          // img.addEventListener("load", function () {
+          // elem.style.display="block";
+          // });
+          img.setAttribute("src", "../../assets/img/daisy_pizza-counterl.jpg");
+
+          img.style.height = "100%";
+          elem.appendChild(img);
+          // elem.style.display = "none";
+          elem.style.position = "absolute";
+          elem.style.right = "0";
+          elem.style.bottom = "30px";
+          elem.style.overflow = "hidden";
+          document.body.insertBefore(elem, document.body.firstChild);
+          relocate();
+          window.addEventListener("resize", function (ev) { relocate(); });
+          function relocate () {
+          var pos = getPos(document.getElementById("xxx"));
+          elem.style.left = (pos.x + 15) + "px";
+          elem.style.top = (pos.y - 30) + "px";
+          }
+          function getPos(el) {
+          for (var lx=0, ly=0;
+          el != null;
+          lx += el.offsetLeft, ly += el.offsetTop, el = el.offsetParent);
+          return {x: lx,y: ly};
+          }
+          });
+        </script>
+      </div>
+    </div>
+  </div>
+</body>

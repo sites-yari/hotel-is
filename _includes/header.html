@@ -1,0 +1,99 @@
+<div class="header">
+  <div class="container">
+    <div class="row">
+      <h1>
+        <a href="index.html">
+          <span class="sr-only">Hotelis</span>
+         <img src="../assets/hotelis_logo.svg" class="logo"></img>
+        </a>
+      </h1>
+      <div class="col2">
+        <p class="subtitle">EQUIPAMENTOS PARA HOTELARIA, REFRIGERAÇÃO E AR CONDICIONADO</p>
+      </div>
+      <p class="lang">
+        {% if page.title =="home-pt" %}
+          <a href="#" class="pt">pt</a>
+          <a href="../en/index.html" class="en">en</a>
+        {% elsif page.title == "empresa-pt" %}
+          <a href="#" class="pt">pt</a>
+          <a href="../en/empresa.html" class="en">en</a>
+        {% elsif page.title == "servico-pt" %}
+          <a href="#" class="pt">pt</a>
+          <a href="../en/servicos.html" class="en">en</a>
+        {% elsif page.title == "marcas-pt" %}
+          <a href="#" class="pt">pt</a>
+          <a href="../en/marcas.html" class="en">en</a>
+        {% elsif page.title == "contactos-pt" %}
+          <a href="#" class="pt">pt</a>
+          <a href="../en/contactos.html" class="en">en</a>
+        {% elsif page.title == "noticias-pt" %}
+          <a href="#" class="pt">pt</a>
+          <a href="../en/noticias.html" class="en">en</a>
+        {% elsif page.class == "produto" %}
+          <a href="#" class="pt">pt</a>
+          <a href="../en/produtos/cozinha-industrial.html" class="en">en</a>
+        {% endif %}
+      </p>
+    </div>
+  </div>
+</div>
+
+<nav class="navbar navbar-default" id="wide-navbar" role="navigation">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+          <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+              <li id="empresa-link" class="link {{page.empresa_active?}} first"><a href="../empresa.html">Empresa</a></li>                         
+              <li id="servicos-link" class="link {{page.servicos_active?}}"><a href="../servicos.html">Serviços</a></li>
+              {% if page.class =="produto" %}
+                <li id="produtos-link" class="link active"><a href="../produtos/cozinha-industrial.html">Produtos</a></li>              
+              {% else %}
+                <li id="produtos-link" class="link "><a href="../produtos/cozinha-industrial.html">Produtos</a></li>
+              {% endif %}
+              <li id="marcas-link" class="link {{page.marcas_active?}}"><a href="../marcas.html">Marcas</a></li>
+              <li id="contactos-link" class="link {{page.contactos_active?}}"><a href="../contactos.html">Contactos</a></li>              
+              <li id="noticias-link" class="link {{page.noticias_active?}} last"><a href="../noticias.html">Notícias</a></li>
+            </ul>
+          </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="narrow-navbar" role="navigation">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">
+              <span class="sr-only">Hotelis</span>
+              <img src="assets/hotelis_logo.svg" class="logo"></img>
+            </a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="main-nav">
+            <ul class="nav navbar-nav">
+              <li id="empresa-link" class="link {{page.empresa_active?}} first"><a href="../empresa.html">Empresa</a></li>                         
+              <li id="servicos-link" class="link {{page.servicos_active?}}"><a href="../servicos.html">Serviços</a></li>
+              {% if page.class =="produto" %}
+                <li id="produtos-link" class="link active"><a href="../produtos/cozinha-industrial.html">Produtos</a></li>              
+              {% else %}
+                <li id="produtos-link" class="link "><a href="../produtos/cozinha-industrial.html">Produtos</a></li>
+              {% endif %}
+              <li id="marcas-link" class="link {{page.marcas_active?}}"><a href="../marcas.html">Marcas</a></li>
+              <li id="contactos-link" class="link {{page.contactos_active?}}"><a href="../contactos.html">Contactos</a></li>              
+              <li id="noticias-link" class="link {{page.noticias_active?}} last"><a href="../noticias.html">Notícias</a></li>
+            </ul>
+          </div>
+      </div>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,71 @@
+---
+layout: en-default-produto
+title: produto-ar-en
+class: produto
+description: Air Conditioning / Avac - Hotelis | 
+---
+
+
+<body class="produtos"> 
+  <div class="container body">
+    <div class="row">
+      <div class="descricao-produtos">
+        <a href="cozinha-industrial.html" >Industrial Kitchen</a>
+        <a href="lavandaria-industrial.html" >Industrial Laundry</a>
+        <a href="gastro-buffet-slash-self-service.html" >Gastro Buffet / Self Service</a>
+        <a href="sector-alimentar.html" >Food Sector</a>
+        <a href="panificacao-e-pastelaria.html" >Bakery  And Pastries</a>
+        <a href="frio-comercial-slash-industrial.html" >Commercial / Industrial Cold</a>
+        <a href="ar-condicionado-slash-avac.html" class="current">Air Conditioning / Avac</a>
+      </div>
+
+      <div class="lista-produtos">
+        <ul>
+            {% for ar-condicionado-slash-avac in site.data.produtos.en.ar %}
+            <li>{{ar-condicionado-slash-avac}}</li>
+                {% endfor %}
+        </ul>
+      </div>
+
+      <div class="image" id="xxx"> 
+        <style>
+          body { background-image: url("../../assets/img/Dollarphotoclub_62169641.jpg");} 
+
+        </style>
+        <script>
+          document.addEventListener("DOMContentLoaded", function (ev) {
+          var elem = document.createElement("div");
+          elem.setAttribute("id", "yyy");
+          var img =  document.createElement("img");
+          // img.addEventListener("load", function () {
+          // elem.style.display="block";
+          // });
+          img.setAttribute("src", "../../assets/img/Dollarphotoclub_62169641.jpg");
+
+          img.style.height = "100%";
+          elem.appendChild(img);
+          // elem.style.display = "none";
+          elem.style.position = "absolute";
+          elem.style.right = "0";
+          elem.style.bottom = "30px";
+          elem.style.overflow = "hidden";
+          document.body.insertBefore(elem, document.body.firstChild);
+          relocate();
+          window.addEventListener("resize", function (ev) { relocate(); });
+          function relocate () {
+          var pos = getPos(document.getElementById("xxx"));
+          elem.style.left = (pos.x + 15) + "px";
+          elem.style.top = (pos.y - 30) + "px";
+          }
+          function getPos(el) {
+          for (var lx=0, ly=0;
+          el != null;
+          lx += el.offsetLeft, ly += el.offsetTop, el = el.offsetParent);
+          return {x: lx,y: ly};
+          }
+          });
+        </script>
+      </div>
+    </div>
+  </div>
+</body>

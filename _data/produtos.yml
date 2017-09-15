@@ -1,0 +1,160 @@
+pt:
+  cozinha:
+    - Fogões 
+    - Fritadeiras Mergulhantes
+    - Fritadeiras Basculantes e Marmitas
+    - Fornos
+    - Fry-Tops
+    - Grelhadores
+    - Banhos Maria
+    - Salamandras
+    - Descascadoras de Batatas
+    - Trituradoras
+    - Cortadora de Legumes
+    - Cortadoras de Carnes Frias
+    - Máquinas de Café e Moinhos
+    - Termos de Leite
+    - Torradeiras
+    - Máquinas de Sumos
+    - Centrifugadores
+    - Grupos Múltiplos
+    - Trituradores
+    - Abatedores de Temperatura
+    - Embaladoras a Vácuo
+    - Linhas de Queima Snack
+    - Máquinas de gelo
+    - Placas Indução
+    - Micro Ondas
+    - Sistemas de Lavagem de Louça
+    - Apanha Fumos
+    - Mobiliário Inox
+  lavandaria: 
+    - Lavadoras
+    - Secadoras
+    - Centrifugadoras
+    - Calandras
+    - Passadoras e Vincadoras
+    - Mesas de Passagem de Ferro
+    - Manequins e Cabines de Vapor
+    - Carros de Transporte
+  gastro: 
+    - Elementos Self Neutros
+    - Elementos Self Refrigerados
+    - Elementos Self Banho Maria
+    - Elementos Quentes
+    - Elementos Drop-In
+    - Expositores Refrigerados
+    - Expositores Neutros
+  sector: 
+    - Estanteria
+    - Check Outs
+    - Vitrinas Expositoras
+    - Murais e Semimurais
+    - Armários refrigerados
+    - Ilhas de Congelados
+    - Arcas de Congelados
+  panificacao: 
+    - Batedeiras
+    - Amassadeiras
+    - Divisoras
+    - Enformadoras
+    - Laminadores
+    - Refrigeradores de Água
+    - Fornos
+    - Estufas de Levedação
+    - Câmaras de Fermentação Controlada
+    - Fornos de Pizzas
+  frio: 
+    - Armários Refrigerados
+    - Expositores de Vinhos
+    - Bancadas Refrigeradas
+    - Abatedores de Temperatura
+    - Câmaras Frigoríficas Modulares
+    - Equipamentos Frigoríficos Monobloco
+    - Equipamentos Frigoríficos Split
+    - Unidades Condensadoras
+    - Centrais e Mini-Centrais de Frio
+  ar: 
+    - Ar Condicionado
+    - Extracção de Fumos e Cheiros
+    - Ventilação Mecânica
+    - Unidades de Tratamento de Ar
+
+
+
+en:
+  cozinha: 
+    - Cookers
+    - Deep fryers
+    - Filting pans
+    - Boiling pans
+    - Ovens
+    - Grills
+    - Bain Maries
+    - Salamanders
+    - Potato peelers
+    - Food grinders
+    - Vegetable slicers
+    - Cold meats slicers
+    - Coffee machines and grinders
+    - Milk warmers
+    - Toasters
+    - Juice machines
+    - Centrifugal Machines
+    - Multiple Groups
+    - Blast chillers
+    - Vaccum packing machines
+    - Snack burning lines
+    - ice producer machines
+    - Induction hobs
+    - Microwave
+    - Dishwashing systems
+    - Kitchen ventilations
+    - Stainless furnitures 
+  lavandaria: 
+    - Washing machines
+    - Dryers
+    - Centrifugal machines
+    - Ironers
+    - Steam ironers
+    - Ironing boards
+    - Form finishers and finishing toppers
+    - Trolleys 
+  gastro: 
+    - Neutral self elements
+    - Cold Self elements
+    - Bain Marie self elements
+    - Hot elements
+    - Drop-In elements
+    - Refrigerated cellars
+    - Neutral cellars
+  sector: 
+    - Shelves
+    - Display cases
+    - Multidecks
+    - Fresh and freezing coolers
+    - Professional freezers
+    - Freezers
+  panificacao: 
+    - Mixers
+    - Kneaders
+    - Roller dividers
+    - Pizza forms
+    - Sheeters
+    - Water refrigerators
+    - Bakery and pastry ovens
+    - Proofers
+    - Controlled temperature rooms
+    - Pizza ovens
+  frio: 
+    - Fresh and freezing coolers
+    - Wine cellars
+    - Refrigerated counters
+    - Blast chillers
+    - Modular coldrooms
+    - Cold production unit
+  ar: 
+    - Air Conditioning
+    - Kitchen ventilations.
+    - Ventilation
+    - Air cleaners

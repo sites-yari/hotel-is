@@ -1,0 +1,81 @@
+---
+layout: en-default
+title: contactos-en
+class: en-default
+description: Contacts - Hotelis |
+contactos_en_active?: active
+---
+
+<body class="contactos">
+  <div class="container body">
+    <div class="row">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item"  src="https://www.google.com/maps/embed/v1/search?q=41%C2%B031'00.3%22N%208%C2%B027'48.6%22W&amp;zoom=12&amp;key=AIzaSyCGq4U7CCMWYPfuDZbNKMzj9e6C-nBdTrY" width="100%"  height="315" frameborder="0" style="border:0">
+        </iframe>
+      </div>
+    </div>
+
+    <div class="row contactos">
+      <div class="form">
+        <form method="POST" action="https://formspree.io/websites_forms+hotelis@yarilabs.com">    
+          <div class="field name">
+            <input type="text" name="nome" value="" placeholder="NAME*" class="form-control" required>
+          </div>
+
+          <div class="field phone">
+            <input type="text" name="telefone" value=""  placeholder="TELEPHONE*" class="form-control" required>
+          </div>
+
+          <div class="field company">
+            <input type="text" name="empresa" value=""  placeholder="COMPANY*" class="form-control" required>
+          </div>
+
+          <div class="field email">
+            <input type="email" name="email" value="" placeholder="EMAIL*" class="form-control" required>
+          </div>
+
+          <div class="field message">
+            <textarea name="content[mensagem]" placeholder="COMMENTS*" class="form-control" required></textarea>
+          </div>
+
+          <div class="submit">
+            <button id="contact_button" type="submit" class="btn btn-block">Send</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="dados">
+        <div class="content editable">
+          <p class="empresa">
+            Henriques & Campelo · Lda
+          </p>
+
+          <p class="morada">
+            Pq. Ind. de Celeirós · Fase 2 <br>
+            Rua Terminal de Mercadorias · Lote 1 <br>
+            4705-827 Aveleda BRG <br>
+            Braga · Portugal
+          </p>
+
+          <p class="gps">
+            41° 31' 00.3" N<br>
+            8° 27' 48.6" W
+          </p>
+
+          <p class="telefones">
+            <b>T</b> +351 253 1430 70 <span class="small-text">SWITCHBOARD</span> <br>
+            <b>T</b> +351 253 1430 71 <span class="small-text">COMERCIAL</span> <br>
+            <b>T</b> +351 253 1430 72 <span class="small-text">PROJECTS</span> <br>
+            <b>T</b> +351 253 1430 73 <span class="small-text">TECHNICAL</span> <br>
+            <b>F</b> +351 253 1430 69 <br>
+          </p>
+
+          <p class="emails">
+            www.hotelis.pt <br>
+            geral@hotelis.pt
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
