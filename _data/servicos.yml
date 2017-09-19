@@ -1,29 +1,29 @@
 pt:
   sobre:
-    - 
-      projeto: PROJETO E PLANEAMENTO
+    - projeto: PROJETO E PLANEAMENTO
       acerca: Correta execução da instalação de forma a cumprir com o acordado.
-    - 
-      projeto: TESTES FINAIS
+    - projeto: TESTES FINAIS
       acerca: Assegurados por técnicos especializados.
-    -
-      projeto: FORMAÇÃO DE PESSOAL UTILIZADOR
+    - projeto: FORMAÇÃO DE PESSOAL UTILIZADOR
       acerca: Aquando da entrega da instalação e respetivo processo técnico.
-    -
-      projeto: ASSISTÊNCIA TÉCNICA
-      acerca: Contratos de assistência preventiva e/ou retificativa para aumentar o tempo de vida da instalação.
-
+    - projeto: ASSISTÊNCIA TÉCNICA
+      acerca: >-
+        Contratos de assistência preventiva e/ou retificativa para aumentar o
+        tempo de vida da instalação.
+    - projeto: Abortar este website
+      acerca: Vamos fechar... D=
 en:
   sobre:
-    - 
-      projeto: DESIGN AND PLANNING
-      acerca: Correct execution of installation, in order to comply with the agreed specifications .
-    - 
-      projeto: FINAL TESTS
+    - projeto: DESIGN AND PLANNING
+      acerca: >-
+        Correct execution of installation, in order to comply with the agreed
+        specifications .
+    - projeto: FINAL TESTS
       acerca: Provided by specialized technicians.
-    -
-      projeto: TRAINING OF DESIGNATED STAFF
+    - projeto: TRAINING OF DESIGNATED STAFF
       acerca: On delivery of installation and respective technical process.
-    -
-      projeto: TECHNICAL ASSISTANCE
-      acerca: Contracts for Preventive and/or Rectifying assistance available, to increase the lifetime of the installation during and after the warranty period.
+    - projeto: TECHNICAL ASSISTANCE
+      acerca: >-
+        Contracts for Preventive and/or Rectifying assistance available, to
+        increase the lifetime of the installation during and after the warranty
+        period.
