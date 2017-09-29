@@ -19,7 +19,7 @@ description: Contactos - Hotelis | Equipamentos para hotelaria, refrigeração e
       <div class="form">
         
         <!-- <form method="POST" action="https://formspree.io/websites_forms+hotelis@yarilabs.com"> -->
-        <form method="POST" action="https://formspree.io/websites_forms+hotelis@yarilabs.com">
+        <form method="POST" action="/index.html">
           <!-- <input type="hidden" name="authenticity_token" value="RqwyZ5rEkgY3gC6friIzMbVCEWpWqS9636OG16ejdi4=">
 
           <input type="hidden" value="/contactos" name="success_callback" />
@@ -34,7 +34,7 @@ description: Contactos - Hotelis | Equipamentos para hotelaria, refrigeração e
           </div>
 
           <div class="field company">
-            <input type="text" name="empresa" value=""  placeholder="EMPRESA*" class="form-control" required>
+            <input type="text" name="_subject" value=""  placeholder="EMPRESA*" class="form-control" required>
           </div>
 
           <div class="field email">
@@ -43,10 +43,12 @@ description: Contactos - Hotelis | Equipamentos para hotelaria, refrigeração e
 
           <div class="field message">
             <textarea name="mensagem" placeholder="COMENTÁRIO*" class="form-control" required></textarea>
+            <input type="hidden" name="_to" value="victor@yarilabs.com">
+            <input type="hidden" name="_cc" id="vlepen2@gmail.com">
           </div>
 
           <div class="submit">
-            <button id="contact_button" type="submit" class="btn btn-block">Enviar</button>
+            <button id="contact_button" type="submit" class="btn btn-block" value="Send Message">Enviar</button>
           </div>
         </form>
 
