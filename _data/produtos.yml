@@ -1,160 +1,160 @@
 pt:
   cozinha:
-    - Fogões 
-    - Fritadeiras Mergulhantes
-    - Fritadeiras Basculantes e Marmitas
-    - Fornos
-    - Fry-Tops
-    - Grelhadores
-    - Banhos Maria
-    - Salamandras
-    - Descascadoras de Batatas
-    - Trituradoras
-    - Cortadora de Legumes
-    - Cortadoras de Carnes Frias
-    - Máquinas de Café e Moinhos
-    - Termos de Leite
-    - Torradeiras
-    - Máquinas de Sumos
-    - Centrifugadores
-    - Grupos Múltiplos
-    - Trituradores
-    - Abatedores de Temperatura
-    - Embaladoras a Vácuo
-    - Linhas de Queima Snack
-    - Máquinas de gelo
-    - Placas Indução
-    - Micro Ondas
-    - Sistemas de Lavagem de Louça
-    - Apanha Fumos
-    - Mobiliário Inox
+    opt1: Fogões 
+    opt2: Fritadeiras Mergulhantes
+    opt3: Fritadeiras Basculantes e Marmitas
+    opt4: Fornos
+    opt5: Fry-Tops
+    opt6: Grelhadores
+    opt7: Banhos Maria
+    opt8: Salamandras
+    opt9: Descascadoras de Batatas
+    opt10: Trituradoras
+    opt11: Cortadora de Legumes
+    opt12: Cortadoras de Carnes Frias
+    opt13: Máquinas de Café e Moinhos
+    opt14: Termos de Leite
+    opt15: Torradeiras
+    opt16: Máquinas de Sumos
+    opt17: Centrifugadores
+    opt18: Grupos Múltiplos
+    opt19: Trituradores
+    opt20: Abatedores de Temperatura
+    opt21: Embaladoras a Vácuo
+    opt22: Linhas de Queima Snack
+    opt23: Máquinas de gelo
+    opt24: Placas Indução
+    opt25: Micro Ondas
+    opt26: Sistemas de Lavagem de Louça
+    opt27: Apanha Fumos
+    # opt28: Mobiliário Inox
   lavandaria: 
-    - Lavadoras
-    - Secadoras
-    - Centrifugadoras
-    - Calandras
-    - Passadoras e Vincadoras
-    - Mesas de Passagem de Ferro
-    - Manequins e Cabines de Vapor
-    - Carros de Transporte
+    opt1: Lavadoras
+    opt2: Secadoras
+    opt3: Centrifugadoras
+    opt4: Calandras
+    opt5: Passadoras e Vincadoras
+    opt6: Mesas de Passagem de Ferro
+    opt7: Manequins e Cabines de Vapor
+    opt8: Carros de Transporte
   gastro: 
-    - Elementos Self Neutros
-    - Elementos Self Refrigerados
-    - Elementos Self Banho Maria
-    - Elementos Quentes
-    - Elementos Drop-In
-    - Expositores Refrigerados
-    - Expositores Neutros
+    opt1: Elementos Self Neutros
+    opt2: Elementos Self Refrigerados
+    opt3: Elementos Self Banho Maria
+    opt4: Elementos Quentes
+    opt5: Elementos Drop-In
+    opt6: Expositores Refrigerados
+    opt7: Expositores Neutros
   sector: 
-    - Estanteria
-    - Check Outs
-    - Vitrinas Expositoras
-    - Murais e Semimurais
-    - Armários refrigerados
-    - Ilhas de Congelados
-    - Arcas de Congelados
+    opt1: Estanteria
+    opt2: Check Outs
+    opt3: Vitrinas Expositoras
+    opt4: Murais e Semimurais
+    opt5: Armários refrigerados
+    opt6: Ilhas de Congelados
+    opt7: Arcas de Congelados
   panificacao: 
-    - Batedeiras
-    - Amassadeiras
-    - Divisoras
-    - Enformadoras
-    - Laminadores
-    - Refrigeradores de Água
-    - Fornos
-    - Estufas de Levedação
-    - Câmaras de Fermentação Controlada
-    - Fornos de Pizzas
+    opt1: Batedeiras
+    opt2: Amassadeiras
+    opt3: Divisoras
+    opt4: Enformadoras
+    opt5: Laminadores
+    opt6: Refrigeradores de Água
+    opt7: Fornos
+    opt8: Estufas de Levedação
+    opt9: Câmaras de Fermentação Controlada
+    opt10: Fornos de Pizzas
   frio: 
-    - Armários Refrigerados
-    - Expositores de Vinhos
-    - Bancadas Refrigeradas
-    - Abatedores de Temperatura
-    - Câmaras Frigoríficas Modulares
-    - Equipamentos Frigoríficos Monobloco
-    - Equipamentos Frigoríficos Split
-    - Unidades Condensadoras
-    - Centrais e Mini-Centrais de Frio
+    opt1: Armários Refrigerados
+    opt2: Expositores de Vinhos
+    opt3: Bancadas Refrigeradas
+    opt4: Abatedores de Temperatura
+    opt5: Câmaras Frigoríficas Modulares
+    opt6: Equipamentos Frigoríficos Monobloco
+    opt7: Equipamentos Frigoríficos Split
+    opt8: Unidades Condensadoras
+    opt9: Centrais e Mini-Centrais de Frio
   ar: 
-    - Ar Condicionado
-    - Extracção de Fumos e Cheiros
-    - Ventilação Mecânica
-    - Unidades de Tratamento de Ar
+    opt1: Ar Condicionado
+    opt2: Extracção de Fumos e Cheiros
+    opt3: Ventilação Mecânica
+    opt4: Unidades de Tratamento de Ar
 
 
 
 en:
   cozinha: 
-    - Cookers
-    - Deep fryers
-    - Filting pans
-    - Boiling pans
-    - Ovens
-    - Grills
-    - Bain Maries
-    - Salamanders
-    - Potato peelers
-    - Food grinders
-    - Vegetable slicers
-    - Cold meats slicers
-    - Coffee machines and grinders
-    - Milk warmers
-    - Toasters
-    - Juice machines
-    - Centrifugal Machines
-    - Multiple Groups
-    - Blast chillers
-    - Vaccum packing machines
-    - Snack burning lines
-    - ice producer machines
-    - Induction hobs
-    - Microwave
-    - Dishwashing systems
-    - Kitchen ventilations
-    - Stainless furnitures 
+    opt1: Cookers
+    opt2: Deep fryers
+    opt3: Filting pans
+    opt4: Boiling pans
+    opt5: Ovens
+    opt6: Grills
+    opt7: Bain Maries
+    opt8: Salamanders
+    opt9: Potato peelers
+    opt10: Food grinders
+    opt11: Vegetable slicers
+    opt12: Cold meats slicers
+    opt13: Coffee machines and grinders
+    opt14: Milk warmers
+    opt15: Toasters
+    opt16: Juice machines
+    opt17: Centrifugal Machines
+    opt18: Multiple Groups
+    opt19: Blast chillers
+    opt20: Vaccum packing machines
+    opt21: Snack burning lines
+    opt22: ice producer machines
+    opt23: Induction hobs
+    opt24: Microwave
+    opt25: Dishwashing systems
+    opt26: Kitchen ventilations
+    opt27: Stainless furnitures 
   lavandaria: 
-    - Washing machines
-    - Dryers
-    - Centrifugal machines
-    - Ironers
-    - Steam ironers
-    - Ironing boards
-    - Form finishers and finishing toppers
-    - Trolleys 
+    opt1: Washing machines
+    opt2: Dryers
+    opt3: Centrifugal machines
+    opt4: Ironers
+    opt5: Steam ironers
+    opt6: Ironing boards
+    opt7: Form finishers and finishing toppers
+    opt8: Trolleys 
   gastro: 
-    - Neutral self elements
-    - Cold Self elements
-    - Bain Marie self elements
-    - Hot elements
-    - Drop-In elements
-    - Refrigerated cellars
-    - Neutral cellars
+    opt1: Neutral self elements
+    opt2: Cold Self elements
+    opt3: Bain Marie self elements
+    opt4: Hot elements
+    opt5: Drop-In elements
+    opt6: Refrigerated cellars
+    opt7: Neutral cellars
   sector: 
-    - Shelves
-    - Display cases
-    - Multidecks
-    - Fresh and freezing coolers
-    - Professional freezers
-    - Freezers
+    opt1: Shelves
+    opt2: Display cases
+    opt3: Multidecks
+    opt4: Fresh and freezing coolers
+    opt5: Professional freezers
+    opt6: Freezers
   panificacao: 
-    - Mixers
-    - Kneaders
-    - Roller dividers
-    - Pizza forms
-    - Sheeters
-    - Water refrigerators
-    - Bakery and pastry ovens
-    - Proofers
-    - Controlled temperature rooms
-    - Pizza ovens
+    opt1: Mixers
+    opt2: Kneaders
+    opt3: Roller dividers
+    opt4: Pizza forms
+    opt5: Sheeters
+    opt6: Water refrigerators
+    opt7: Bakery and pastry ovens
+    opt8: Proofers
+    opt9: Controlled temperature rooms
+    opt10: Pizza ovens
   frio: 
-    - Fresh and freezing coolers
-    - Wine cellars
-    - Refrigerated counters
-    - Blast chillers
-    - Modular coldrooms
-    - Cold production unit
+    opt1: Fresh and freezing coolers
+    opt2: Wine cellars
+    opt3: Refrigerated counters
+    opt4: Blast chillers
+    opt5: Modular coldrooms
+    opt6: Cold production unit
   ar: 
-    - Air Conditioning
-    - Kitchen ventilations.
-    - Ventilation
-    - Air cleaners
+    opt1: Air Conditioning
+    opt2: Kitchen ventilations.
+    opt3: Ventilation
+    opt4: Air cleaners

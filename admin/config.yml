@@ -127,7 +127,221 @@ collections: #====================| POSTS |=====================================
                   - { label: "Projeto 3", name: "projeto3", widget: "string" }
                   - { label: "Descrição 3", name: "acerca3", widget: "string" }
                   - { label: "Projeto 4", name: "projeto4", widget: "string" }
-                  - { label: "Descrição 4", name: "acerca4", widget: "string" }          
+                  - { label: "Descrição 4", name: "acerca4", widget: "string" }
+      #---| Produtos |---
+      - name: "produtos"
+        label: "Pagina de Produtos"
+        file: "_data/produtos.yml"
+        description: . . .
+        fields:
+          - label: "PT"
+            name: pt
+            widget: "object"
+            fields:
+              - label: "Cozinha"
+                name: cozinha
+                widget: "object"
+                fields:
+                  - { label: "Produto 1", name: "opt1", widget: "string" }
+                  - { label: "Produto 2", name: "opt2", widget: "string" }
+                  - { label: "Produto 3", name: "opt3", widget: "string" }
+                  - { label: "Produto 4", name: "opt4", widget: "string" }
+                  - { label: "Produto 5", name: "opt5", widget: "string" }
+                  - { label: "Produto 6", name: "opt6", widget: "string" }
+                  - { label: "Produto 7", name: "opt7", widget: "string" }
+                  - { label: "Produto 8", name: "opt8", widget: "string" }
+                  - { label: "Produto 9", name: "opt9", widget: "string" }
+                  - { label: "Produto 10", name: "opt10", widget: "string" }
+                  - { label: "Produto 11", name: "opt11", widget: "string" }
+                  - { label: "Produto 12", name: "opt12", widget: "string" }
+                  - { label: "Produto 13", name: "opt13", widget: "string" }
+                  - { label: "Produto 14", name: "opt14", widget: "string" }
+                  - { label: "Produto 15", name: "opt15", widget: "string" }
+                  - { label: "Produto 16", name: "opt16", widget: "string" }
+                  - { label: "Produto 17", name: "opt17", widget: "string" }
+                  - { label: "Produto 18", name: "opt18", widget: "string" }
+                  - { label: "Produto 19", name: "opt19", widget: "string" }
+                  - { label: "Produto 20", name: "opt20", widget: "string" }
+                  - { label: "Produto 21", name: "opt21", widget: "string" }
+                  - { label: "Produto 22", name: "opt22", widget: "string" }
+                  - { label: "Produto 23", name: "opt23", widget: "string" }
+                  - { label: "Produto 24", name: "opt24", widget: "string" }
+                  - { label: "Produto 25", name: "opt25", widget: "string" }
+                  - { label: "Produto 26", name: "opt26", widget: "string" }
+                  - { label: "Produto 27", name: "opt27", widget: "string" }
+              - label: "Lavandaria"
+                name: lavandaria
+                widget: "object"
+                fields:
+                  - { label: "Produto 1", name: "opt1", widget: "string" }
+                  - { label: "Produto 2", name: "opt2", widget: "string" }
+                  - { label: "Produto 3", name: "opt3", widget: "string" }
+                  - { label: "Produto 4", name: "opt4", widget: "string" }
+                  - { label: "Produto 5", name: "opt5", widget: "string" }
+                  - { label: "Produto 6", name: "opt6", widget: "string" }
+                  - { label: "Produto 7", name: "opt7", widget: "string" }
+                  - { label: "Produto 8", name: "opt8", widget: "string" }
+              - label: "Gastro"
+                name: gastro
+                widget: "object"
+                fields:
+                  - { label: "Produto 1", name: "opt1", widget: "string" }
+                  - { label: "Produto 2", name: "opt2", widget: "string" }
+                  - { label: "Produto 3", name: "opt3", widget: "string" }
+                  - { label: "Produto 4", name: "opt4", widget: "string" }
+                  - { label: "Produto 5", name: "opt5", widget: "string" }
+                  - { label: "Produto 6", name: "opt6", widget: "string" }
+                  - { label: "Produto 7", name: "opt7", widget: "string" }
+              - label: "Sector"
+                name: sector
+                widget: "object"
+                fields:
+                  - { label: "Produto 1", name: "opt1", widget: "string" }
+                  - { label: "Produto 2", name: "opt2", widget: "string" }
+                  - { label: "Produto 3", name: "opt3", widget: "string" }
+                  - { label: "Produto 4", name: "opt4", widget: "string" }
+                  - { label: "Produto 5", name: "opt5", widget: "string" }
+                  - { label: "Produto 6", name: "opt6", widget: "string" }
+                  - { label: "Produto 7", name: "opt7", widget: "string" }
+              - label: "Panificação"
+                name: cozinha
+                widget: "object"
+                fields:
+                  - { label: "Produto 1", name: "opt1", widget: "string" }
+                  - { label: "Produto 2", name: "opt2", widget: "string" }
+                  - { label: "Produto 3", name: "opt3", widget: "string" }
+                  - { label: "Produto 4", name: "opt4", widget: "string" }
+                  - { label: "Produto 5", name: "opt5", widget: "string" }
+                  - { label: "Produto 6", name: "opt6", widget: "string" }
+                  - { label: "Produto 7", name: "opt7", widget: "string" }
+                  - { label: "Produto 8", name: "opt8", widget: "string" }
+                  - { label: "Produto 9", name: "opt9", widget: "string" }
+                  - { label: "Produto 10", name: "opt10", widget: "string" }  
+              - label: "Frio"
+                name: frio
+                widget: "object"
+                fields:
+                  - { label: "Produto 1", name: "opt1", widget: "string" }
+                  - { label: "Produto 2", name: "opt2", widget: "string" }
+                  - { label: "Produto 3", name: "opt3", widget: "string" }
+                  - { label: "Produto 4", name: "opt4", widget: "string" }
+                  - { label: "Produto 5", name: "opt5", widget: "string" }
+                  - { label: "Produto 6", name: "opt6", widget: "string" }
+                  - { label: "Produto 7", name: "opt7", widget: "string" }
+                  - { label: "Produto 8", name: "opt8", widget: "string" }
+                  - { label: "Produto 9", name: "opt9", widget: "string" }
+              - label: "Ar"
+                name: ar
+                widget: "object"
+                fields:
+                  - { label: "Produto 1", name: "opt1", widget: "string" }
+                  - { label: "Produto 2", name: "opt2", widget: "string" }
+                  - { label: "Produto 3", name: "opt3", widget: "string" }
+                  - { label: "Produto 4", name: "opt4", widget: "string" }                  
+          - label: "EN"
+            name: en
+            widget: "object"
+            fields:
+              - label: "Cozinha"
+                name: cozinha
+                widget: "object"
+                fields:
+                  - { label: "Produto 1", name: "opt1", widget: "string" }
+                  - { label: "Produto 2", name: "opt2", widget: "string" }
+                  - { label: "Produto 3", name: "opt3", widget: "string" }
+                  - { label: "Produto 4", name: "opt4", widget: "string" }
+                  - { label: "Produto 5", name: "opt5", widget: "string" }
+                  - { label: "Produto 6", name: "opt6", widget: "string" }
+                  - { label: "Produto 7", name: "opt7", widget: "string" }
+                  - { label: "Produto 8", name: "opt8", widget: "string" }
+                  - { label: "Produto 9", name: "opt9", widget: "string" }
+                  - { label: "Produto 10", name: "opt10", widget: "string" }
+                  - { label: "Produto 11", name: "opt11", widget: "string" }
+                  - { label: "Produto 12", name: "opt12", widget: "string" }
+                  - { label: "Produto 13", name: "opt13", widget: "string" }
+                  - { label: "Produto 14", name: "opt14", widget: "string" }
+                  - { label: "Produto 15", name: "opt15", widget: "string" }
+                  - { label: "Produto 16", name: "opt16", widget: "string" }
+                  - { label: "Produto 17", name: "opt17", widget: "string" }
+                  - { label: "Produto 18", name: "opt18", widget: "string" }
+                  - { label: "Produto 19", name: "opt19", widget: "string" }
+                  - { label: "Produto 20", name: "opt20", widget: "string" }
+                  - { label: "Produto 21", name: "opt21", widget: "string" }
+                  - { label: "Produto 22", name: "opt22", widget: "string" }
+                  - { label: "Produto 23", name: "opt23", widget: "string" }
+                  - { label: "Produto 24", name: "opt24", widget: "string" }
+                  - { label: "Produto 25", name: "opt25", widget: "string" }
+                  - { label: "Produto 26", name: "opt26", widget: "string" }
+                  - { label: "Produto 27", name: "opt27", widget: "string" }
+              - label: "Lavandaria"
+                name: lavandaria
+                widget: "object"
+                fields:
+                  - { label: "Produto 1", name: "opt1", widget: "string" }
+                  - { label: "Produto 2", name: "opt2", widget: "string" }
+                  - { label: "Produto 3", name: "opt3", widget: "string" }
+                  - { label: "Produto 4", name: "opt4", widget: "string" }
+                  - { label: "Produto 5", name: "opt5", widget: "string" }
+                  - { label: "Produto 6", name: "opt6", widget: "string" }
+                  - { label: "Produto 7", name: "opt7", widget: "string" }
+                  - { label: "Produto 8", name: "opt8", widget: "string" }
+              - label: "Gastro"
+                name: gastro
+                widget: "object"
+                fields:
+                  - { label: "Produto 1", name: "opt1", widget: "string" }
+                  - { label: "Produto 2", name: "opt2", widget: "string" }
+                  - { label: "Produto 3", name: "opt3", widget: "string" }
+                  - { label: "Produto 4", name: "opt4", widget: "string" }
+                  - { label: "Produto 5", name: "opt5", widget: "string" }
+                  - { label: "Produto 6", name: "opt6", widget: "string" }
+                  - { label: "Produto 7", name: "opt7", widget: "string" }
+              - label: "Sector"
+                name: sector
+                widget: "object"
+                fields:
+                  - { label: "Produto 1", name: "opt1", widget: "string" }
+                  - { label: "Produto 2", name: "opt2", widget: "string" }
+                  - { label: "Produto 3", name: "opt3", widget: "string" }
+                  - { label: "Produto 4", name: "opt4", widget: "string" }
+                  - { label: "Produto 5", name: "opt5", widget: "string" }
+                  - { label: "Produto 6", name: "opt6", widget: "string" }
+                  - { label: "Produto 7", name: "opt7", widget: "string" }
+              - label: "Panificação"
+                name: cozinha
+                widget: "object"
+                fields:
+                  - { label: "Produto 1", name: "opt1", widget: "string" }
+                  - { label: "Produto 2", name: "opt2", widget: "string" }
+                  - { label: "Produto 3", name: "opt3", widget: "string" }
+                  - { label: "Produto 4", name: "opt4", widget: "string" }
+                  - { label: "Produto 5", name: "opt5", widget: "string" }
+                  - { label: "Produto 6", name: "opt6", widget: "string" }
+                  - { label: "Produto 7", name: "opt7", widget: "string" }
+                  - { label: "Produto 8", name: "opt8", widget: "string" }
+                  - { label: "Produto 9", name: "opt9", widget: "string" }
+                  - { label: "Produto 10", name: "opt10", widget: "string" }  
+              - label: "Frio"
+                name: frio
+                widget: "object"
+                fields:
+                  - { label: "Produto 1", name: "opt1", widget: "string" }
+                  - { label: "Produto 2", name: "opt2", widget: "string" }
+                  - { label: "Produto 3", name: "opt3", widget: "string" }
+                  - { label: "Produto 4", name: "opt4", widget: "string" }
+                  - { label: "Produto 5", name: "opt5", widget: "string" }
+                  - { label: "Produto 6", name: "opt6", widget: "string" }
+                  - { label: "Produto 7", name: "opt7", widget: "string" }
+                  - { label: "Produto 8", name: "opt8", widget: "string" }
+                  - { label: "Produto 9", name: "opt9", widget: "string" }
+              - label: "Ar"
+                name: ar
+                widget: "object"
+                fields:
+                  - { label: "Produto 1", name: "opt1", widget: "string" }
+                  - { label: "Produto 2", name: "opt2", widget: "string" }
+                  - { label: "Produto 3", name: "opt3", widget: "string" }
+                  - { label: "Produto 4", name: "opt4", widget: "string" }           
 
 
 
