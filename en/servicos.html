@@ -8,12 +8,11 @@ servicos_en_active?: active
 
 <body class="servicos">
   <div class="container body">
-    {% for servicos in site.data.servicos.en.sobre %} 
       <div class="row">
         <div class="descricao-servicos"> 
           <div>
-              <span>{{servicos.projeto}}</span>
-              <p>{{servicos.acerca}}</p>
+              <span>{{site.data.servicos.en.sobre.projeto1}}</span>
+              <p>{{site.data.servicos.en.sobre.acerca1}}</p>
           </div>
         </div>
 
@@ -56,7 +55,31 @@ servicos_en_active?: active
           </script>
         </div>
       </div>
-    {% endfor %}
+
+      <div class="row">
+        <div class="descricao-servicos"> 
+          <div>
+              <span>{{site.data.servicos.en.sobre.projeto2}}</span>
+              <p>{{site.data.servicos.en.sobre.acerca2}}</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="descricao-servicos"> 
+          <div>
+              <span>{{site.data.servicos.en.sobre.projeto3}}</span>
+              <p>{{site.data.servicos.en.sobre.acerca3}}</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="descricao-servicos"> 
+          <div>
+              <span>{{site.data.servicos.en.sobre.projeto3}}</span>
+              <p>{{site.data.servicos.en.sobre.acerca3}}</p>
+          </div>
+        </div>
+      </div>
   </div>
 
 </body>

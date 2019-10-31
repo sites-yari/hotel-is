@@ -8,57 +8,67 @@ backend:
   branch: master # Branch to update (optional; defaults to master)
 
 
-collections: #====================| POSTS |===================================================|  
-  - name: "posts"
-    label: "Instruções"
-    folder: "_posts"
-    create: false
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields:
-      - { label: "Titulo", name: "title", widget: "hidden", default: "read-me" }
-      - { label: "Classe", name: "class", widget: "hidden", default: "" }
-      - { label: "categoria", name: "categoria", widget: "hidden", default: "instrucoes" }
-      - { label: "date", name: "date", widget: "hidden", format: "YYYY-MM-DD hh:mma" }
-      - { label: "READ ME", name: "body", widget: "markdown" }
-    meta: # Meta data fields. Just like fields, but without any preview element
-      - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
+# collections: #====================| POSTS |===================================================|  
+#   - name: "posts"
+#     label: "Instruções"
+#     folder: "_posts"§
+#     create: false
+#     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+#     fields:
+#       - { label: "Titulo", name: "title", widget: "hidden", default: "read-me" }
+#       - { label: "Classe", name: "class", widget: "hidden", default: "" }
+#       - { label: "categoria", name: "categoria", widget: "hidden", default: "instrucoes" }
+#       - { label: "date", name: "date", widget: "hidden", format: "YYYY-MM-DD hh:mma" }
+#       - { label: "READ ME", name: "body", widget: "markdown" }
+#     meta: # Meta data fields. Just like fields, but without any preview element
+#       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
 
-      
+
 
   - name: "data" #|=====================| DATA |====================================================|
     label: "Data"
     editor:
       preview: true
     files:
-      #---| INDEX |---
-      - name: "pagina-index"
-        label: "Pagina de Inicio"
-        file: "_data/pagina-index.yml"
-        description: Everything needed for the index
+      #---| Serviços |---
+      - name: "servicos"
+        label: "Pagina de Serviços"
+        file: "_data/servicos.yml"
+        description: . . .
         fields:
-          - label: "Quem somos" #quem-somos
-            name: quem_somos
+          - label: "PT"
+            name: pt
             widget: "object"
             fields:
-              - { label: "Sobre 1", name: "sobre1", widget: "string" }
-              - { label: "Sobre 2", name: "sobre2", widget: "string" }
-          - label: "Private Equity" #Private-equity
-            name: private_equity
-            widget: "object"
-            fields:
-              - { label: "Descrição", name: "texto_inicial", wdiget: "markdown" }
-              - { label: "Sociedade Gestora", name: "sociedade", widget: "markdown" }
-              - label: "Insignya FRE"
-                name: fre
+              - label: "Sobre"
+                name: sobre
                 widget: "object"
                 fields:
-                  - { label: "Descrição sobre insignya FRE", name: "texto", widget: "markdown" }
-                  - { label: "Tipo de Operações", name: "tipo_operacoes", widget: "string" }
-                  - { label: "Empresas Alvo", name: "empresas_alvo", widget: "string" }
-                  - { label: "Setores Alvo", name: "setores_alvo", widget: "string" }
-                  - { label: "Estratégia de Investimento", name: "estrategia_invest", widget: "string" }
-                  - { label: "Duração prevista", name: "duracao", widget: "string" }
-                  - { label: "Nota", name: "nota", widget: "string" }
+                  - { label: "Projeto 1", name: "projeto1", widget: "string" }
+                  - { label: "Descrição 1", name: "acerca1", widget: "string" }
+                  - { label: "Projeto 2", name: "projeto2", widget: "string" }
+                  - { label: "Descrição 2", name: "acerca2", widget: "string" }
+                  - { label: "Projeto 3", name: "projeto3", widget: "string" }
+                  - { label: "Descrição 3", name: "acerca3", widget: "string" }
+                  - { label: "Projeto 4", name: "projeto4", widget: "string" }
+                  - { label: "Descrição 4", name: "acerca4", widget: "string" }
+          - label: "EN"
+            name: en
+            widget: "object"
+            fields:
+              - label: "Sobre"
+                name: sobre
+                widget: "object"
+                fields:
+                  - { label: "Projeto 1", name: "projeto1", widget: "string" }
+                  - { label: "Descrição 1", name: "acerca1", widget: "string" }
+                  - { label: "Projeto 2", name: "projeto2", widget: "string" }
+                  - { label: "Descrição 2", name: "acerca2", widget: "string" }
+                  - { label: "Projeto 3", name: "projeto3", widget: "string" }
+                  - { label: "Descrição 3", name: "acerca3", widget: "string" }
+                  - { label: "Projeto 4", name: "projeto4", widget: "string" }
+                  - { label: "Descrição 4", name: "acerca4", widget: "string" }
+          
       #---| SOBRE 1 |---
       
 
