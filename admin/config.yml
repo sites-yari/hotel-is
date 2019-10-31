@@ -30,6 +30,66 @@ collections: #====================| POSTS |=====================================
     editor:
       preview: true
     files:
+      #---| INDEX |---
+      - name: "front"
+        label: "Pagina de Inicial"
+        file: "_data/front.yml"
+        description: . . .
+        fields:
+          - label: "PT"
+            name: pt
+            widget: "object"
+            fields:
+              - label: "Equipamentos"
+                name: index
+                widget: "object"
+                fields:
+                  - { label: "Equipamento 1", name: "op1", widget: "string" }
+                  - { label: "Equipamento 2", name: "op2", widget: "string" }
+                  - { label: "Equipamento 3", name: "op3", widget: "string" }
+                  - { label: "Equipamento 4", name: "op4", widget: "string" }
+                  - { label: "Equipamento 5", name: "op5", widget: "string" }
+                  - { label: "Equipamento 6", name: "op6", widget: "string" }
+                  - { label: "Equipamento 7", name: "op7", widget: "string" }
+                  - { label: "Equipamento 8", name: "op8", widget: "string" }
+                  - { label: "Equipamento 9", name: "op9", widget: "string" }
+                  - { label: "Equipamento 10", name: "op10", widget: "string" }
+                  - { label: "Equipamento 11", name: "op11", widget: "string" }
+                  - { label: "Equipamento 12", name: "op12", widget: "string" }
+                  - { label: "Equipamento 13", name: "op13", widget: "string" }
+                  - { label: "Equipamento 14", name: "op14", widget: "string" }
+                  - { label: "Equipamento 15", name: "op15", widget: "string" }
+                  - { label: "Equipamento 16", name: "op16", widget: "string" }
+                  - { label: "Equipamento 17", name: "op17", widget: "string" }
+                  - { label: "Equipamento 18", name: "op18", widget: "string" }
+                  - { label: "Equipamento 19", name: "op19", widget: "string" }
+          - label: "EN"
+            name: en
+            widget: "object"
+            fields:
+              - label: "Equipamentos"
+                name: index
+                widget: "object"
+                fields:
+                  - { label: "Equipamento 1", name: "op1", widget: "string" }
+                  - { label: "Equipamento 2", name: "op2", widget: "string" }
+                  - { label: "Equipamento 3", name: "op3", widget: "string" }
+                  - { label: "Equipamento 4", name: "op4", widget: "string" }
+                  - { label: "Equipamento 5", name: "op5", widget: "string" }
+                  - { label: "Equipamento 6", name: "op6", widget: "string" }
+                  - { label: "Equipamento 7", name: "op7", widget: "string" }
+                  - { label: "Equipamento 8", name: "op8", widget: "string" }
+                  - { label: "Equipamento 9", name: "op9", widget: "string" }
+                  - { label: "Equipamento 10", name: "op10", widget: "string" }
+                  - { label: "Equipamento 11", name: "op11", widget: "string" }
+                  - { label: "Equipamento 12", name: "op12", widget: "string" }
+                  - { label: "Equipamento 13", name: "op13", widget: "string" }
+                  - { label: "Equipamento 14", name: "op14", widget: "string" }
+                  - { label: "Equipamento 15", name: "op15", widget: "string" }
+                  - { label: "Equipamento 16", name: "op16", widget: "string" }
+                  - { label: "Equipamento 17", name: "op17", widget: "string" }
+                  - { label: "Equipamento 18", name: "op18", widget: "string" }
+                  - { label: "Equipamento 19", name: "op19", widget: "string" }    
       #---| Serviços |---
       - name: "servicos"
         label: "Pagina de Serviços"
@@ -67,10 +127,8 @@ collections: #====================| POSTS |=====================================
                   - { label: "Projeto 3", name: "projeto3", widget: "string" }
                   - { label: "Descrição 3", name: "acerca3", widget: "string" }
                   - { label: "Projeto 4", name: "projeto4", widget: "string" }
-                  - { label: "Descrição 4", name: "acerca4", widget: "string" }
-          
-      #---| SOBRE 1 |---
-      
+                  - { label: "Descrição 4", name: "acerca4", widget: "string" }          
+
 
 
 
